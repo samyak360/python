@@ -12,6 +12,6 @@ soup = bs4.BeautifulSoup(res.text , 'lxml')
 
 browser = webdriver.Firefox()
 browser.get("https://web.whatsapp.com/")
-elm = browser.findElementByClassName('3j7s9')[0]
+elm = browser.find_element_by_class_name('3j7s9')[0]
 elm.click()
 

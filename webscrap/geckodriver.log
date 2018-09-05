@@ -1,0 +1,17 @@
+1536135625822	geckodriver	INFO	geckodriver 0.21.0
+1536135625908	geckodriver	INFO	Listening on 127.0.0.1:48579
+1536135627020	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Ds8mGlkblj7D"
+1536135633346	Marionette	INFO	Enabled via --marionette
+1536135652252	Marionette	INFO	Listening on port 40951
+1536135652686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1536135652759	Marionette	DEBUG	Register listener.js for window 2147483649
+1536135652779	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1536135653648	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1536135653648	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1536135654845	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/search?q=samyak+jian"
+1536135655828	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/search?q=samyak+jian"
+1536135655902	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.co.in/search?q=samyak+jian"
+1536135656159	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.co.in/search?q=samyak+jian"
+1536135656167	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.co.in/search?q=samyak+jian"
+1536135657083	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/search?q=samyak+jian&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiIotOft6PdAhXFbSsKHSaID6EQ_AUICigB&biw=1301&bih=668"
+1536135658784	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/search?q=samyak+jian&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiIotOft6PdAhXFbSsKHSaID6EQ_AUICigB&biw=1301&bih=668"
