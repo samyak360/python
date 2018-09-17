@@ -1,5 +1,9 @@
 #!/usr/bin/env  python2
 import os
+import requests
+import time
+import subprocess
+import datetime
 
 choice='''
 Press  1  to  check your current MAC  address  : 
@@ -33,22 +37,32 @@ elif x==3 :
 	print "OS name or version is:"
 	os.system("cat /etc/lsb-release | grep RELEASE")
 
-'''
+
 elif x==4 :
+	url='http://www.google.com/'
+	timeout=5
+	time.sleep(2)
+	try:
+		res = requests.get(url,timeout=timeout)
+		print "internet is connected"
+	except requests.ConnectionError:
+		print "internet is not connected"
 
 
 elif x==5 :
+	subprocess.call(["nmcli","networking","off"])
+	print "internet connection is disabled now"
 
 
 elif x==6 :
+	print(datetime.datetime.now())
 
 
 elif x==7 :
-
-
-elif x==8 :
-
+	print "logging out..."
+	time.sleep(2)
+	subprocess.call(["gnome-session-quit","--logout","--no-prompt"])
 
 else :
 	print "please choose from above"
-'''
+
