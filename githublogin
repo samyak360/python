@@ -18,7 +18,7 @@ with requests.Session() as s:
 	'authenticity_token': token,
 	'commit': commit,
 	'login':'samyak360',
-	'password':'set2hisamyak'
+	'password':'-'
 	}
 
 	r = s.post('https://github.com/session', data=payload, headers=headers)
